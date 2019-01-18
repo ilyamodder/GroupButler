@@ -1,4 +1,4 @@
-#!/usr/bin/env lua
+#!/usr/bin/env lua5.1
 
 package.path="./lua/?.lua;./lua/vendor/?.lua;"..package.path
 io.stdout:setvbuf "no" -- switch off buffering for stdout
