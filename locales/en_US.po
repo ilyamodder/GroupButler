@@ -22,15 +22,15 @@ msgstr "An unknown error has ocurred"
 
 #: lua/groupbutler/api_errors.lua:20
 msgid "I don't have enough permissions to restrict users"
-msgstr "I don't have enough permissions to restrict users"
+msgstr "Вахта подъехала"
 
 #: lua/groupbutler/api_errors.lua:21
 msgid "I'm not an admin, I can't kick people"
-msgstr "I'm not an admin, I can't kick people"
+msgstr "Вахта подъехала"
 
 #: lua/groupbutler/api_errors.lua:22
 msgid "I can't do that to admins!"
-msgstr "I can't do that to admins!"
+msgstr "Вахта подъехала"
 
 #: lua/groupbutler/api_errors.lua:23
 msgid "There is no need to unban in a normal group"
