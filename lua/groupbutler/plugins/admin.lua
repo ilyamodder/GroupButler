@@ -50,15 +50,15 @@ local triggers2 = {
 }
 
 local function bot_leave(self, chat_id)
-	local api = self.api
-	local red = self.red
-	local res = api:leaveChat(chat_id)
-	if not res then
-		return 'Check the id, it could be wrong'
-	end
-	red:srem('bot:groupsid', chat_id)
-	red:sadd('bot:groupsid:removed', chat_id)
-	return 'Chat left!'
+--	local api = self.api
+--	local red = self.red
+--	local res = api:leaveChat(chat_id)
+--	if not res then
+--		return 'Check the id, it could be wrong'
+--	end
+--	red:srem('bot:groupsid', chat_id)
+--	red:sadd('bot:groupsid:removed', chat_id)
+--	return 'Chat left!'
 end
 
 -- local function round(num, decimals)
