@@ -170,10 +170,10 @@ function _M:onTextMessage(blocks)
 		end
 	end
 
-	if blocks[1] == 'leave' and msg.from:isAdmin() then
-		-- u:remGroup(msg.from.chat.id)
-		api:leaveChat(msg.from.chat.id)
-	end
+--	if blocks[1] == 'leave' and msg.from:isAdmin() then
+--		-- u:remGroup(msg.from.chat.id)
+--		api:leaveChat(msg.from.chat.id)
+--	end
 end
 
 function _M:onCallbackQuery(blocks)
