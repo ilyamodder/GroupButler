@@ -216,8 +216,7 @@ _M.triggers = {
 		config.cmd..'(cache)$',
 		config.cmd..'(msglink)$',
 		config.cmd..'(user)$',
-		config.cmd..'(user) (.*)',
-		config.cmd..'(leave)$'
+		config.cmd..'(user) (.*)'
 	},
 	onCallbackQuery = {
 		'^###cb:userbutton:(remwarns):(%d+)$',
